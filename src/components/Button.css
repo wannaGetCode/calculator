@@ -1,0 +1,39 @@
+button {
+    border: none;
+    background-color: #333333;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+}
+
+button:hover {
+    background-color: #6E6E6E;
+}
+
+.zero {
+    grid-column: 1 / 3;
+    border-radius: 40px;
+}
+
+.first-line {
+    background-color: #6E6E6E;
+    color: #333333;
+}
+
+.first-line:focus,
+.first-line:hover {
+    background-color: #b0afaf;
+}
+
+.operator {
+    background-color: #FD9D22;
+}
+
+.operator:focus,
+.operator:hover {
+    color: #FD9D22;
+    background-color: #fff;
+}
